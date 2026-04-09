@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,43 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="modinatheme" />
+        <meta name="description" content="Agron - Agriculture & Organic Farm HTML Template" />
+        <link rel="shortcut icon" href="/assets/img/favicon.svg" />
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/font-awesome.css" />
+        <link rel="stylesheet" href="/assets/css/animate.css" />
+        <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+        <link rel="stylesheet" href="/assets/css/meanmenu.css" />
+        <link rel="stylesheet" href="/assets/css/odometer.css" />
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/assets/css/nice-select.css" />
+        <link rel="stylesheet" href="/assets/css/main.css" />
+      </head>
+
       <body className="min-h-full flex flex-col">{children}</body>
+
+      {/* Core Dependencies MUST load first */}
+      <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
+
+      {/* Plugins can load after the page is interactive */}
+      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/jquery.nice-select.min.js" strategy="beforeInteractive" />
+      <Script src="/assets/js/swiper-bundle.min.js" strategy="beforeInteractive" />
+      {/* ... include your other plugins here with afterInteractive ... */}
+      <Script strategy="lazyOnload" src="/assets/js/odometer.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/jquery.appear.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/jquery.meanmenu.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/jquery.magnific-popup.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/wow.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/ScrollTrigger.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/SplitText.min.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/splitType.js" />
+      <Script strategy="beforeInteractive" src="/assets/js/main.js" />
     </html>
   );
 }
