@@ -10,8 +10,9 @@ export default function ContactUsOffCanvas() {
                         <div className="offcanvas__content">
                             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
-                                    <Link href="index-2.html">
-                                        <Image src="/assets/img/logo/black-logo.svg" alt="logo-img" height={200} width={200} />
+                                    {/* FIX: Updated to Next.js standard home route */}
+                                    <Link href="/">
+                                        <Image src="/assets/img/logo/black-logo.svg" alt="Dibanko Salifu Farms" height={200} width={200} />
                                     </Link>
                                 </div>
                                 <div className="offcanvas__close">
@@ -20,14 +21,18 @@ export default function ContactUsOffCanvas() {
                                     </button>
                                 </div>
                             </div>
-                            <h3 className="offcanvas-title">Hello There!</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi natus quasi sunt eum ducimus. </p>
+
+                            <h3 className="offcanvas-title">Welcome to Dibanko Salifu Farms!</h3>
+                            <p>Your trusted partner for high-quality crops, well-bred livestock, and fortified animal feed in the Ashanti Region.</p>
+
                             <div className="mobile-menu fix mt-15"></div>
+
                             <div className="social-icon d-flex align-items-center">
-                                <Link href="javascript:void(0)"><i className="fab fa-facebook-f"></i></Link>
-                                <Link href="javascript:void(0)"><i className="fab fa-twitter"></i></Link>
-                                <Link href="javascript:void(0)"><i className="fab fa-youtube"></i></Link>
-                                <Link href="javascript:void(0)"><i className="fab fa-linkedin-in"></i></Link>
+                                {/* Changed javascript:void(0) to # to prevent React warnings */}
+                                <Link href="#"><i className="fab fa-facebook-f"></i></Link>
+                                <Link href="#"><i className="fab fa-twitter"></i></Link>
+                                <Link href="#"><i className="fab fa-youtube"></i></Link>
+                                <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
                             </div>
 
                             <div className="offcanvas__contact">
@@ -39,7 +44,8 @@ export default function ContactUsOffCanvas() {
                                         </div>
                                         <div className="content">
                                             <p>Call Us</p>
-                                            <h4><Link href="tel:+4903983493999">+49 (03) 9834 939 99</Link></h4>
+                                            {/* Updated Phone */}
+                                            <h4><Link href="tel:+233244522879">+233 24 452 2879</Link></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -48,7 +54,8 @@ export default function ContactUsOffCanvas() {
                                         </div>
                                         <div className="content">
                                             <p>Send Email</p>
-                                            <h4><Link href="mailto:yordomain@gmial.com">yordomain@gmial.com</Link></h4>
+                                            {/* Updated Email */}
+                                            <h4><Link href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</Link></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -57,14 +64,15 @@ export default function ContactUsOffCanvas() {
                                         </div>
                                         <div className="content">
                                             <p>Location</p>
-                                            <h4>
-                                                Chicago 53755 NY, USA
-                                            </h4>
+                                            {/* Updated Location */}
+                                            <h4>Ejura, Ashanti Region, Ghana</h4>
                                         </div>
                                     </li>
                                 </ul>
                             </div>
-                            <Link href="contact.html" className="theme-btn">
+
+                            {/* FIX: Updated to Next.js standard contact route */}
+                            <Link href="/contact" className="theme-btn">
                                 Let’s Talk
                                 <i className="far fa-arrow-right"></i>
                             </Link>

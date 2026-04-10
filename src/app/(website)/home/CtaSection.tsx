@@ -24,7 +24,7 @@ export default function CtaSection() {
                                 </p>
                                 <div className="cta-bottom-area">
                                     {/* FIX: Updated the link to standard Next.js routing */}
-                                    <Link href="/contact" className="theme-btn">
+                                    <Link href="/contact-us" className="theme-btn">
                                         Get in Touch Today <i className="far fa-arrow-right"></i>
                                     </Link>
                                     <div className="phone-box-items">

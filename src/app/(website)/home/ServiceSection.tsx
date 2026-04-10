@@ -61,9 +61,9 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/services">Fresh Crop Production</Link></h3>
+                                            <h3><Link href="/shop?category=crops">Fresh Crop Production</Link></h3>
                                             <p>We cultivate and harvest a diverse range of premium crops to meet both local and commercial demands. Our carefully managed fields yield high-quality maize, beans, tomatoes, soybeans, ginger, and cowpeas, ensuring fresh produce straight from the farm to your table or processing facility.</p>
-                                            <Link href="/services" className="theme-btn">
+                                            <Link href="/shop?category=crops" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
                                             </Link>
                                         </div>
@@ -86,9 +86,9 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/services">Quality Livestock Farming</Link></h3>
+                                            <h3><Link href="/shop?category=livestock">Quality Livestock Farming</Link></h3>
                                             <p>We take pride in raising healthy, strong, and well-cared-for livestock. Currently specializing in high-grade goat farming, we adhere to strict ethical breeding and veterinary standards to provide top-tier livestock for breeding, commercial farming, or direct market consumption.</p>
-                                            <Link href="/services" className="theme-btn">
+                                            <Link href="/shop?category=livestock" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
                                             </Link>
                                         </div>
@@ -111,9 +111,9 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/services">Fortified Animal Feed</Link></h3>
+                                            <h3><Link href="/shop?category=animal-feed">Fortified Animal Feed</Link></h3>
                                             <p>Optimize your farm&apos;s growth with our nutrient-rich feed formulations. We supply specialized feed for poultry, dairy, beef cattle, goats/sheep, and swine. Available in convenient 15kg to 25kg bags, our feed is designed to maximize animal health and yield at every stage of development.</p>
-                                            <Link href="/services" className="theme-btn">
+                                            <Link href="/shop?category=animal-feed" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
                                             </Link>
                                         </div>
@@ -136,9 +136,9 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/services">Wholesale & Bulk Supply</Link></h3>
+                                            <h3><Link href="/shop">Wholesale & Bulk Supply</Link></h3>
                                             <p>Whether you need reliable feed supplies for a large-scale poultry operation or bulk crop sourcing for manufacturing and retail, we act as a dependable distribution partner. We ensure consistent quality, competitive pricing, and timely delivery for all our wholesale agribusiness clients.</p>
-                                            <Link href="/services" className="theme-btn">
+                                            <Link href="/shop" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
                                             </Link>
                                         </div>
