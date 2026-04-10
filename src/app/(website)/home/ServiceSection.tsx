@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function ServiceSection() {
     return (
@@ -28,24 +27,24 @@ export default function ServiceSection() {
                     {/* TAB NAVIGATION */}
                     <ul className="nav">
                         <li className="nav-item wow fadeInUp" data-wow-delay=".2s">
-                            <Link href="#thumb1" data-bs-toggle="tab" className="nav-link active">
+                            <a href="#thumb1" data-bs-toggle="tab" className="nav-link active">
                                 Crop Production
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item wow fadeInUp" data-wow-delay=".4s">
-                            <Link href="#thumb2" data-bs-toggle="tab" className="nav-link">
+                            <a href="#thumb2" data-bs-toggle="tab" className="nav-link">
                                 Livestock Farming
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item wow fadeInUp" data-wow-delay=".6s">
-                            <Link href="#thumb3" data-bs-toggle="tab" className="nav-link">
+                            <a href="#thumb3" data-bs-toggle="tab" className="nav-link">
                                 Premium Animal Feed
-                            </Link>
+                            </a>
                         </li>
                         <li className="nav-item wow fadeInUp" data-wow-delay=".8s">
-                            <Link href="#thumb4" data-bs-toggle="tab" className="nav-link">
+                            <a href="#thumb4" data-bs-toggle="tab" className="nav-link">
                                 Wholesale Distribution
-                            </Link>
+                            </a>
                         </li>
                     </ul>
 
@@ -61,11 +60,11 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/shop?category=crops">Fresh Crop Production</Link></h3>
+                                            <h3><a href="/shop?category=crops">Fresh Crop Production</a></h3>
                                             <p>We cultivate and harvest a diverse range of premium crops to meet both local and commercial demands. Our carefully managed fields yield high-quality maize, beans, tomatoes, soybeans, ginger, and cowpeas, ensuring fresh produce straight from the farm to your table or processing facility.</p>
-                                            <Link href="/shop?category=crops" className="theme-btn">
+                                            <a href="/shop?category=crops" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -86,11 +85,11 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/shop?category=livestock">Quality Livestock Farming</Link></h3>
+                                            <h3><a href="/shop?category=livestock">Quality Livestock Farming</a></h3>
                                             <p>We take pride in raising healthy, strong, and well-cared-for livestock. Currently specializing in high-grade goat farming, we adhere to strict ethical breeding and veterinary standards to provide top-tier livestock for breeding, commercial farming, or direct market consumption.</p>
-                                            <Link href="/shop?category=livestock" className="theme-btn">
+                                            <a href="/shop?category=livestock" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -111,11 +110,11 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/shop?category=animal-feed">Fortified Animal Feed</Link></h3>
+                                            <h3><a href="/shop?category=animal-feed">Fortified Animal Feed</a></h3>
                                             <p>Optimize your farm&apos;s growth with our nutrient-rich feed formulations. We supply specialized feed for poultry, dairy, beef cattle, goats/sheep, and swine. Available in convenient 15kg to 25kg bags, our feed is designed to maximize animal health and yield at every stage of development.</p>
-                                            <Link href="/shop?category=animal-feed" className="theme-btn">
+                                            <a href="/shop?category=animal-feed" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -136,11 +135,11 @@ export default function ServiceSection() {
                                             <i className="flaticon-agriculture"></i>
                                         </div>
                                         <div className="content">
-                                            <h3><Link href="/shop">Wholesale & Bulk Supply</Link></h3>
+                                            <h3><a href="/shop">Wholesale & Bulk Supply</a></h3>
                                             <p>Whether you need reliable feed supplies for a large-scale poultry operation or bulk crop sourcing for manufacturing and retail, we act as a dependable distribution partner. We ensure consistent quality, competitive pricing, and timely delivery for all our wholesale agribusiness clients.</p>
-                                            <Link href="/shop" className="theme-btn">
+                                            <a href="/shop" className="theme-btn">
                                                 View Details <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

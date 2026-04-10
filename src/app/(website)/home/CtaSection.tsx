@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function CtaSection() {
     return (
@@ -24,16 +23,16 @@ export default function CtaSection() {
                                 </p>
                                 <div className="cta-bottom-area">
                                     {/* FIX: Updated the link to standard Next.js routing */}
-                                    <Link href="/contact-us" className="theme-btn">
+                                    <a href="/contact-us" className="theme-btn">
                                         Get in Touch Today <i className="far fa-arrow-right"></i>
-                                    </Link>
+                                    </a>
                                     <div className="phone-box-items">
                                         <div className="icon">
                                             <i className="fas fa-phone-alt"></i>
                                         </div>
                                         <div className="content">
                                             <p>Call Us Directly:</p>
-                                            <Link href="tel:+233540000000">+233 24 452 2879</Link>
+                                            <a href="tel:+233540000000">+233 24 452 2879</a>
                                         </div>
                                     </div>
                                 </div>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function NewsSection() {
     return (
@@ -23,11 +22,11 @@ export default function NewsSection() {
                             </div>
                             <div className="news-content">
                                 <span>Agricultural</span>
-                                <h3><Link href="news-details.html">Minuter highest technic clothes trainer observe that</Link></h3>
+                                <h3><a href="news-details.html">Minuter highest technic clothes trainer observe that</a></h3>
                                 <p>
                                     Ultrices sagittis orci a scelerisque purus semper eget duis at. Sollicitudin nibh sit amet.
                                 </p>
-                                <Link href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></Link>
+                                <a href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -42,11 +41,11 @@ export default function NewsSection() {
                             </div>
                             <div className="news-content">
                                 <span>Agricultural</span>
-                                <h3><Link href="news-details.html">Breaking Down Barriers to Crop Insurance</Link></h3>
+                                <h3><a href="news-details.html">Breaking Down Barriers to Crop Insurance</a></h3>
                                 <p>
                                     Ultrices sagittis orci a scelerisque purus semper eget duis at. Sollicitudin nibh sit amet.
                                 </p>
-                                <Link href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></Link>
+                                <a href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -61,11 +60,11 @@ export default function NewsSection() {
                             </div>
                             <div className="news-content">
                                 <span>Agricultural</span>
-                                <h3><Link href="news-details.html">How to Care for Cows to have the Best Quality Meat</Link></h3>
+                                <h3><a href="news-details.html">How to Care for Cows to have the Best Quality Meat</a></h3>
                                 <p>
                                     Ultrices sagittis orci a scelerisque purus semper eget duis at. Sollicitudin nibh sit amet.
                                 </p>
-                                <Link href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></Link>
+                                <a href="news-details.html" className="link-btn">More Details <i className="far fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

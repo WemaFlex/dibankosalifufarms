@@ -2,7 +2,6 @@
 
 import BreadCrum from "./components/BreadCrum";
 import Layout from "./(website)/layout";
-import Link from "next/link";
 
 export default function CustomMouseCursor() {
     return (
@@ -20,10 +19,10 @@ export default function CustomMouseCursor() {
                             <p className="wow fadeInUp" data-wow-delay=".5s">
                                 Something went wrong, looks like this page doesn&apos;t exist anymore.
                             </p>
-                            <Link href="/" className="theme-btn wow fadeInUp" data-wow-delay=".6s">
+                            <a href="/" className="theme-btn wow fadeInUp" data-wow-delay=".6s">
                                 Go To Homepage
                                 <i className="far fa-arrow-right"></i>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function ChooseUsStandardsSection() {
     return (
@@ -92,9 +91,9 @@ export default function ChooseUsStandardsSection() {
                                     </div>
                                 </div>
 
-                                <Link href="/contact" className="theme-btn wow fadeInUp" data-wow-delay=".9s">
+                                <a href="/contact" className="theme-btn wow fadeInUp" data-wow-delay=".9s">
                                     Partner With Us <i className="far fa-arrow-right"></i>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>

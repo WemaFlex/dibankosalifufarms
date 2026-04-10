@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function TopHeader() {
     return (
@@ -9,21 +8,21 @@ export default function TopHeader() {
                     <ul className="header-contact-list">
                         <li>
                             <i className="fal fa-envelope"></i>
-                            <Link href="mailto:dibankosalifu@gmail.com">
+                            <a href="mailto:dibankosalifu@gmail.com">
                                 dibankosalifu@gmail.com
-                            </Link>
+                            </a>
                         </li>
                         <li>
                             <i className="far fa-phone-alt"></i>
-                            <Link href="tel:+233 24 452 2879">
+                            <a href="tel:+233 24 452 2879">
                                 +233 24 452 2879
-                            </Link>
+                            </a>
                         </li>
                     </ul>
-                    <Link href="/home" className="top-logo flex items-center">
+                    <a href="/home" className="top-logo flex items-center">
                         <Image src="/assets/img/logo/black-logo-top.svg" alt="Top Logo" height={43} width={50} />
                         <Image src="/assets/img/logo/black-logo-bottom.svg" alt="Bottom Logo" height={50} width={220} className="-ml-4 mt-2" />
-                    </Link>
+                    </a>
                     <div className="head-right">
                         <div className="flag-wrap">
                             <div className="flag">
@@ -37,10 +36,10 @@ export default function TopHeader() {
                         </div>
                         <div className="line-shape"></div>
                         <div className="social-icon">
-                            <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                            <Link href="#"><i className="fab fa-twitter"></i></Link>
-                            <Link href="#"><i className="fab fa-dribbble"></i></Link>
-                            <Link href="#"><i className="fab fa-instagram"></i></Link>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-dribbble"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

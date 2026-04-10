@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function ContactUsOffCanvas() {
     return (
@@ -11,9 +10,9 @@ export default function ContactUsOffCanvas() {
                             <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                                 <div className="offcanvas__logo">
                                     {/* FIX: Updated to Next.js standard home route */}
-                                    <Link href="/">
+                                    <a href="/">
                                         <Image src="/assets/img/logo/black-logo.svg" alt="Dibanko Salifu Farms" height={200} width={200} />
-                                    </Link>
+                                    </a>
                                 </div>
                                 <div className="offcanvas__close">
                                     <button>
@@ -29,10 +28,10 @@ export default function ContactUsOffCanvas() {
 
                             <div className="social-icon d-flex align-items-center">
                                 {/* Changed javascript:void(0) to # to prevent React warnings */}
-                                <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                <Link href="#"><i className="fab fa-youtube"></i></Link>
-                                <Link href="#"><i className="fab fa-linkedin-in"></i></Link>
+                                <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                <a href="#"><i className="fab fa-twitter"></i></a>
+                                <a href="#"><i className="fab fa-youtube"></i></a>
+                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
                             </div>
 
                             <div className="offcanvas__contact">
@@ -45,7 +44,7 @@ export default function ContactUsOffCanvas() {
                                         <div className="content">
                                             <p>Call Us</p>
                                             {/* Updated Phone */}
-                                            <h4><Link href="tel:+233244522879">+233 24 452 2879</Link></h4>
+                                            <h4><a href="tel:+233244522879">+233 24 452 2879</a></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -55,7 +54,7 @@ export default function ContactUsOffCanvas() {
                                         <div className="content">
                                             <p>Send Email</p>
                                             {/* Updated Email */}
-                                            <h4><Link href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</Link></h4>
+                                            <h4><a href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</a></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -72,10 +71,10 @@ export default function ContactUsOffCanvas() {
                             </div>
 
                             {/* FIX: Updated to Next.js standard contact route */}
-                            <Link href="/contact" className="theme-btn">
+                            <a href="/contact" className="theme-btn">
                                 Let’s Talk
                                 <i className="far fa-arrow-right"></i>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function ShopSection() {
     return (
@@ -18,12 +17,12 @@ export default function ShopSection() {
                                 <span className="sale-icon">Fresh</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
                                     <li>
-                                        <Link href="/shop/cart">
+                                        <a href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?q=maize"><i className="far fa-eye"></i></Link>
+                                        <a href="/shop?q=maize"><i className="far fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -35,7 +34,7 @@ export default function ShopSection() {
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>
                                 </div>
-                                <h5><Link href="/shop/maize">Premium White Maize</Link></h5>
+                                <h5><a href="/shop/maize">Premium White Maize</a></h5>
                                 <ul>
                                     <li>GH¢ 350.00</li>
                                     {/* Optional: Add a slashed out price if you want to show a discount */}
@@ -53,12 +52,12 @@ export default function ShopSection() {
                                 <span className="sale-icon">Top Seller</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
                                     <li>
-                                        <Link href="/shop/cart">
+                                        <a href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?q=feed"><i className="far fa-eye"></i></Link>
+                                        <a href="/shop?q=feed"><i className="far fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -70,7 +69,7 @@ export default function ShopSection() {
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>
                                 </div>
-                                <h5><Link href="/shop/feed">Fortified Poultry Feed (25kg)</Link></h5>
+                                <h5><a href="/shop/feed">Fortified Poultry Feed (25kg)</a></h5>
                                 <ul>
                                     <li>GH¢ 220.00</li>
                                 </ul>
@@ -85,12 +84,12 @@ export default function ShopSection() {
                                 <img src="/assets/img/home-1/shop/shop-03.png" alt="Healthy Goat" />
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
                                     <li>
-                                        <Link href="/shop/cart">
+                                        <a href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?q=livestock"><i className="far fa-eye"></i></Link>
+                                        <a href="/shop?q=livestock"><i className="far fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -102,7 +101,7 @@ export default function ShopSection() {
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>
                                 </div>
-                                <h5><Link href="/shop/livestock">Healthy Farm-Raised Goat</Link></h5>
+                                <h5><a href="/shop/livestock">Healthy Farm-Raised Goat</a></h5>
                                 <ul>
                                     <li>GH¢ 1,200.00</li>
                                 </ul>
@@ -119,12 +118,12 @@ export default function ShopSection() {
                                 <span className="discount-icon">10% Off</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
                                     <li>
-                                        <Link href="/shop/cart">
+                                        <a href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?q=soybeans"><i className="far fa-eye"></i></Link>
+                                        <a href="/shop?q=soybeans"><i className="far fa-eye"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -136,7 +135,7 @@ export default function ShopSection() {
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>
                                 </div>
-                                <h5><Link href="/shop/soybeans">Fresh Farm Soybeans</Link></h5>
+                                <h5><a href="/shop/soybeans">Fresh Farm Soybeans</a></h5>
                                 <ul>
                                     <li>GH¢ 450.00</li>
                                     <li>

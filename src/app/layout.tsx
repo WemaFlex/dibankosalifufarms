@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,8 +30,8 @@ export default function RootLayout({
       <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="author" content="modinatheme" />
-        <meta name="description" content="Agron - Agriculture & Organic Farm HTML Template" />
+        <meta name="author" content="wemaflex" />
+        <meta name="description" content="Dibanko Salifu Farms" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -50,24 +49,23 @@ export default function RootLayout({
 
       <body className="min-h-full flex flex-col">
         {children}
-        <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
 
-        {/* 2. PLUGINS: Load these AFTER React has painted the page */}
-        <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/jquery.nice-select.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/swiper-bundle.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/odometer.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/jquery.appear.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/jquery.meanmenu.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/jquery.magnific-popup.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/wow.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/ScrollTrigger.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/SplitText.min.js" strategy="afterInteractive" />
-        <Script src="/assets/js/splitType.js" strategy="afterInteractive" />
+        <script defer src="/assets/js/jquery-3.7.1.min.js" />
+        <script defer src="/assets/js/bootstrap.bundle.min.js" />
 
-        {/* 3. YOUR MAIN LOGIC: Also must wait! */}
-        <Script src="/assets/js/main.js" strategy="afterInteractive" />
+        <script defer src="/assets/js/jquery.nice-select.min.js" />
+        <script defer src="/assets/js/odometer.min.js" />
+        <script defer src="/assets/js/jquery.appear.min.js" />
+        <script defer src="/assets/js/swiper-bundle.min.js" />
+        <script defer src="/assets/js/jquery.meanmenu.min.js" />
+        <script defer src="/assets/js/jquery.magnific-popup.min.js" />
+        <script defer src="/assets/js/wow.min.js" />
+        <script defer src="/assets/js/gsap.min.js" />
+        <script defer src="/assets/js/ScrollTrigger.min.js" />
+        <script defer src="/assets/js/SplitText.min.js" />
+        <script defer src="/assets/js/splitType.js" />
+
+        <script defer src="/assets/js/main.js" />
       </body>
     </html>
   );

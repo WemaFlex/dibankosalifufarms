@@ -1,13 +1,12 @@
-import Link from "next/link";
 
 export default function FooterSection() {
     return (
         <footer className="footer-section fix section-padding bg-cover pb-0" style={{ backgroundImage: "url('assets/img/home-1/footer-bg.jpg')" }}>
             <div className="container">
                 <div className="footer-widget-top">
-                    <Link href="/" className="logo-img wow fadeInUp">
+                    <a href="/" className="logo-img wow fadeInUp">
                         <img width={300} height={300} src="/assets/img/logo/white-logo.svg" alt="img" />
-                    </Link>
+                    </a>
                     <div className="content-items wow fadeInUp" data-wow-delay=".2s">
                         <h3>Subscrive Our Newsletter To Get More Updates</h3>
                         <form action="#">
@@ -33,7 +32,7 @@ export default function FooterSection() {
                                         </div>
                                         <div className="content">
                                             <h5>Email us:</h5>
-                                            <p><Link href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</Link></p>
+                                            <p><a href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</a></p>
                                         </div>
                                     </li>
                                     <li>
@@ -51,7 +50,7 @@ export default function FooterSection() {
                                         </div>
                                         <div className="content">
                                             <h5>Phone:</h5>
-                                            <p><Link href="tel:++233244522879">+233 24 452 2879</Link></p>
+                                            <p><a href="tel:++233244522879">+233 24 452 2879</a></p>
                                         </div>
                                     </li>
                                 </ul>
@@ -66,19 +65,19 @@ export default function FooterSection() {
                                 </div>
                                 <ul className="list-area">
                                     <li>
-                                        <Link href="/shop?category=agriculture-foods">
+                                        <a href="/shop?category=agriculture-foods">
                                             <i className="far fa-chevron-double-right"></i> Agriculture Foods
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?category=livestock">
+                                        <a href="/shop?category=livestock">
                                             <i className="far fa-chevron-double-right"></i> Livestock
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/shop?category=animal-feed">
+                                        <a href="/shop?category=animal-feed">
                                             <i className="far fa-chevron-double-right"></i> Animal Feed
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -92,24 +91,24 @@ export default function FooterSection() {
                                 </div>
                                 <ul className="list-area">
                                     <li>
-                                        <Link href="/team">
+                                        <a href="/team">
                                             <i className="far fa-chevron-double-right"></i> Meet The Team
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/faq">
+                                        <a href="/faq">
                                             <i className="far fa-chevron-double-right"></i> Our FAQs
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/contact">
+                                        <a href="/contact">
                                             <i className="far fa-chevron-double-right"></i> 24/7 Support
-                                        </Link>
+                                        </a>
                                     </li>
                                     <li>
-                                        <Link href="/about">
+                                        <a href="/about">
                                             <i className="far fa-chevron-double-right"></i> About Us
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
@@ -128,7 +127,7 @@ export default function FooterSection() {
                                         </div>
                                         <div className="content">
                                             <p>12 January, 2025</p>
-                                            <h4><Link href="news-details.html">Holistic Healing: Exploring Health Coaching Techniques</Link></h4>
+                                            <h4><a href="news-details.html">Holistic Healing: Exploring Health Coaching Techniques</a></h4>
                                         </div>
                                     </li>
                                     <li>
@@ -137,7 +136,7 @@ export default function FooterSection() {
                                         </div>
                                         <div className="content">
                                             <p>09 May, 2025</p>
-                                            <h4><Link href="news-details.html">How Can You Growing Your Agriculture Products</Link></h4>
+                                            <h4><a href="news-details.html">How Can You Growing Your Agriculture Products</a></h4>
                                         </div>
                                     </li>
                                 </ul>
@@ -152,10 +151,10 @@ export default function FooterSection() {
                         <p className="text-1 wow fadeInUp">© {new Date().getFullYear()} Dibanko Salifu Farms. Developed by
                             <a className="text-1" href="https://wwww.wemaflex.com" target="_blank" rel="noopener noreferrer"> Wemaflex </a>. All Rights Reserved</p>
                         <div className="social-icon wow fadeInUp" data-wow-delay=".2s">
-                            <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                            <Link href="#"><i className="fab fa-twitter"></i></Link>
-                            <Link href="#"><i className="fab fa-dribbble"></i></Link>
-                            <Link href="#"><i className="fab fa-instagram"></i></Link>
+                            <a href="#"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#"><i className="fab fa-twitter"></i></a>
+                            <a href="#"><i className="fab fa-dribbble"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                         <div className="bottom-img wow fadeInUp" data-wow-delay=".4s">
                             <img src="/assets/img/home-1/footer-bottom.png" alt="img" />

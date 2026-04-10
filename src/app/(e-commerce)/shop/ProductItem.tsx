@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function ProductCard({ product, delay = ".3s" }: { product: any; delay?: string }) {
     // We destructure the product object to keep the code clean
@@ -27,14 +26,14 @@ export default function ProductCard({ product, delay = ".3s" }: { product: any; 
 
                     <ul className="shop-icon d-flex justify-content-center align-items-center">
                         {/* <li>
-                            <Link href="/cart"><i className="far fa-heart"></i></Link>
+                            <a href="/cart"><i className="far fa-heart"></i></a>
                         </li> */}
                         <li>
-                            <Link href="/cart"><i className="far fa-shopping-cart"></i></Link>
+                            <a href="/cart"><i className="far fa-shopping-cart"></i></a>
                         </li>
                         <li>
                             {/* Dynamic linking based on the product ID */}
-                            <Link href={`/shop/item?id=${id}`}><i className="far fa-eye"></i></Link>
+                            <a href={`/shop/item?id=${id}`}><i className="far fa-eye"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +46,7 @@ export default function ProductCard({ product, delay = ".3s" }: { product: any; 
                         ))}
                     </div>
 
-                    <h5><Link href={`/shop/item?id=${id}`}>{title}</Link></h5>
+                    <h5><a href={`/shop/item?id=${id}`}>{title}</a></h5>
 
                     <ul>
                         <li>GH¢ {price.toFixed(2)}</li>

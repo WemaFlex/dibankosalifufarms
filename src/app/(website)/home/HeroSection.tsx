@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 export default function HeroSection() {
+
     return (
         <section className="hero-section hero-1 fix">
             <div className="array-button">
@@ -35,10 +34,10 @@ export default function HeroSection() {
                                             <h2>Ghanaian Crops</h2>
                                         </div>
                                         <div className="hero-button">
-                                            <Link href="/shop" className="theme-btn">
+                                            <a href="/shop" className="theme-btn">
                                                 Shop Fresh Produce
                                                 <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -63,10 +62,10 @@ export default function HeroSection() {
                                             <h2>Farm-Raised Goats</h2>
                                         </div>
                                         <div className="hero-button">
-                                            <Link href="/shop" className="theme-btn">
+                                            <a href="/shop" className="theme-btn">
                                                 View Livestock
                                                 <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -93,10 +92,10 @@ export default function HeroSection() {
                                             <p className="text-white mt-3 fw-bold">Available in 15kg and 25kg bags</p>
                                         </div>
                                         <div className="hero-button">
-                                            <Link href="/shop" className="theme-btn">
+                                            <a href="/shop" className="theme-btn">
                                                 Order Feed Now
                                                 <i className="far fa-arrow-right"></i>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

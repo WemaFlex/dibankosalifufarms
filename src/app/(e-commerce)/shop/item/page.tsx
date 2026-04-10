@@ -339,7 +339,7 @@ export default function ShopItemDetailsPage() {
 //             <div className="container text-center py-5 mt-5">
 //                 <h2>Product Not Found</h2>
 //                 <p>We could not find the agricultural product you are looking for.</p>
-//                 <Link href="/shop" className="theme-btn mt-3">Back to Shop</Link>
+//                 <a href="/shop" className="theme-btn mt-3">Back to Shop</a>
 //             </div>
 //         );
 //     }
@@ -411,7 +411,7 @@ export default function ShopItemDetailsPage() {
 //                                         </p>
 //                                         <button className="shop-btn theme-btn border-0">Add to cart</button>
 //                                         <div className="icon-item">
-//                                             <Link href="#" className="icon"><i className="far fa-heart"></i></Link>
+//                                             <a href="#" className="icon"><i className="far fa-heart"></i></a>
 //                                         </div>
 //                                     </div>
 

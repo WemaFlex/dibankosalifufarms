@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function CommingSoon() {
     return (
@@ -7,9 +6,9 @@ export default function CommingSoon() {
                 <div className="row justify-content-center">
                     <div className="col-lg-10">
                         <div className="cooming-soon-items">
-                            <Link href="/home" className="coming-soon-logo wow fadeInUp ">
+                            <a href="/home" className="coming-soon-logo wow fadeInUp ">
                                 <img width={300} height={300} src="/assets/img/logo/black-logo.svg" alt="img" className="-mt-5" />
-                            </Link>
+                            </a>
                             <p className="wow fadeInUp" data-wow-delay=".2s">
                                 UNDER CONSTRUCTION
                             </p>

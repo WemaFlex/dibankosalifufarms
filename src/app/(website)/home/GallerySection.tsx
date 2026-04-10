@@ -1,4 +1,3 @@
-import Link from 'next/link';
 
 export default function GallerySection() {
     return (
@@ -24,7 +23,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-01.jpg" alt="Livestock" />
                             <div className="content">
                                 <p>Livestock</p>
-                                <h3><Link href="/gallery">Healthy Goat Herds</Link></h3>
+                                <h3><a href="/gallery">Healthy Goat Herds</a></h3>
                             </div>
                         </div>
                     </div>
@@ -35,7 +34,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-02.jpg" alt="Maize Harvest" />
                             <div className="content">
                                 <p>Crops</p>
-                                <h3><Link href="/gallery">Fresh Maize Harvest</Link></h3>
+                                <h3><a href="/gallery">Fresh Maize Harvest</a></h3>
                             </div>
                         </div>
                     </div>
@@ -46,7 +45,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-03.jpg" alt="Feed Production" />
                             <div className="content">
                                 <p>Animal Feed</p>
-                                <h3><Link href="/gallery">Premium Feed Pellets</Link></h3>
+                                <h3><a href="/gallery">Premium Feed Pellets</a></h3>
                             </div>
                         </div>
                     </div>
@@ -57,7 +56,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-04.jpg" alt="Bean Farming" />
                             <div className="content">
                                 <p>Crops</p>
-                                <h3><Link href="/gallery">Sustainable Bean Farming</Link></h3>
+                                <h3><a href="/gallery">Sustainable Bean Farming</a></h3>
                             </div>
                         </div>
                     </div>
@@ -68,7 +67,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-05.jpg" alt="Ejura Farm Operations" />
                             <div className="content">
                                 <p>Operations</p>
-                                <h3><Link href="/gallery">Ejura Farm Facilities</Link></h3>
+                                <h3><a href="/gallery">Ejura Farm Facilities</a></h3>
                             </div>
                         </div>
                     </div>
@@ -79,7 +78,7 @@ export default function GallerySection() {
                             <img src="/assets/img/home-1/gallery/gallery-06.jpg" alt="Livestock Breeding" />
                             <div className="content">
                                 <p>Livestock</p>
-                                <h3><Link href="/gallery">Ethical Breeding</Link></h3>
+                                <h3><a href="/gallery">Ethical Breeding</a></h3>
                             </div>
                         </div>
                     </div>

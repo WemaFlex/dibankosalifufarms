@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function AboutSection() {
     return (
@@ -43,16 +42,16 @@ export default function AboutSection() {
                                 </div>
 
                                 <div className="about-bottom-area mt-4">
-                                    <Link href="/about-us" className="theme-btn wow fadeInUp" data-wow-delay=".6s">
+                                    <a href="/about-us" className="theme-btn wow fadeInUp" data-wow-delay=".6s">
                                         More About Us <i className="far fa-arrow-right"></i>
-                                    </Link>
+                                    </a>
                                     <div className="phone-box-items wow fadeInUp" data-wow-delay=".8s">
                                         <div className="icon">
                                             <i className="fas fa-phone-alt"></i>
                                         </div>
                                         <div className="content">
                                             <p>Call Us Today:</p>
-                                            <Link href="tel:+233540000000">+233 24 452 2879</Link>
+                                            <a href="tel:+233540000000">+233 24 452 2879</a>
                                         </div>
                                     </div>
                                 </div>

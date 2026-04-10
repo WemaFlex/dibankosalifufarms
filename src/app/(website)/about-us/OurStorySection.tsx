@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function OurStorySection() {
     return (
@@ -76,9 +75,9 @@ export default function OurStorySection() {
                                     </div>
                                 </div>
 
-                                <Link href="/shop" className="theme-btn mt-5 wow fadeInUp" data-wow-delay=".9s">
+                                <a href="/shop" className="theme-btn mt-5 wow fadeInUp" data-wow-delay=".9s">
                                     Explore Our Products <i className="far fa-arrow-right"></i>
-                                </Link>
+                                </a>
                             </div>
                         </div>
 
