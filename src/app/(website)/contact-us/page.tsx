@@ -1,6 +1,15 @@
+import BreadCrum from "@/app/components/BreadCrum";
+import ContactDetailsSection from "./ContactDetailsSection";
+import ContactFormSection from "./ContactFormSection";
+import ContactMapSection from "./ContactMapSection";
 
-export default function page() {
+export default function ContactUsPage() {
     return (
-        <div>page</div>
+        <>
+            <BreadCrum slug="Contact Us" />
+            <ContactDetailsSection />
+            <ContactFormSection />
+            <ContactMapSection />
+        </>
     )
 }
