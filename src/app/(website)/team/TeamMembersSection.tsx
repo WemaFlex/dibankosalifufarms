@@ -17,7 +17,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">Jessica Brown</a></h3>
+                                <h3><a href="#!">Jessica Brown</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -37,7 +37,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">Jeskoca Rown</a></h3>
+                                <h3><a href="#!">Jeskoca Rown</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -57,7 +57,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">Alik Bron</a></h3>
+                                <h3><a href="#!">Alik Bron</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -77,7 +77,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">James Benjamin</a></h3>
+                                <h3><a href="#!">James Benjamin</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -97,7 +97,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">Alexander Ethan</a></h3>
+                                <h3><a href="#!">Alexander Ethan</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>
@@ -117,7 +117,7 @@ export default function TeamMembersSection() {
                             </div>
                             <div className="team-content">
                                 <p>Formal Farmer</p>
-                                <h3><a href="team-details.html">Isabella Camila</a></h3>
+                                <h3><a href="#!">Isabella Camila</a></h3>
                                 <div className="social-profile">
                                     <ul>
                                         <li><a href="#"><i className="fab fa-twitter"></i></a></li>

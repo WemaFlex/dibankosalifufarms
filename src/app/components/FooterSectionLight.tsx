@@ -24,7 +24,7 @@ export default function FooterSectionLight() {
                         <div className="col-xl-4 col-lg-6 col-md-8 wow fadeInUp" data-wow-delay=".2s">
                             <div className="footer-widget-items">
                                 <div className="widget-head">
-                                    <a href="index-2.html" className="footer-logo">
+                                    <a href="/home" className="footer-logo">
                                         <img src="/assets/img/logo/black-logo.svg" alt="img" />
                                     </a>
                                 </div>
@@ -49,33 +49,28 @@ export default function FooterSectionLight() {
                                 </div>
                                 <ul className="list-area">
                                     <li>
-                                        <a href="about.html">
+                                        <a href="/about">
                                             <i className="far fa-chevron-double-right"></i> About Company
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="team.html">
+                                        <a href="/team">
                                             <i className="far fa-chevron-double-right"></i> Meet Member
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">
+                                        <a href="/contact">
                                             <i className="far fa-chevron-double-right"></i> Contact Us
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">
+                                        <a href="/contact">
                                             <i className="far fa-chevron-double-right"></i> 24/7 Support
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="faq.html">
+                                        <a href="/faqs">
                                             <i className="far fa-chevron-double-right"></i> Our FAQs
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="pricing.html">
-                                            <i className="far fa-chevron-double-right"></i> Pricing Plan
                                         </a>
                                     </li>
                                 </ul>

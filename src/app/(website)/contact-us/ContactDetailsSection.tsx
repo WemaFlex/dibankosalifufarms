@@ -18,9 +18,6 @@ export default function ContactDetailsSection() {
                             <p>
                                 <a href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</a>
                             </p>
-                            {/* <p>
-                                <a href="supportagron%40gmail.html">supportagron@gmail.com</a>
-                            </p> */}
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">

@@ -8,7 +8,7 @@ export default function FaqsSection() {
                         <span className="wow fadeInUp"><img src="/assets/img/sub-title.svg" alt="img" />Our FAQs</span>
                         <h2 className="text-anim">Frequently Asked <br /> Questions About Us</h2>
                     </div>
-                    <a href="contact.html" className="theme-btn wow fadeInUp" data-wow-delay=".2s">
+                    <a href="/contact-us" className="theme-btn wow fadeInUp" data-wow-delay=".2s">
                         Contact Us <i className="far fa-arrow-right"></i>
                     </a>
                 </div>
