@@ -7,7 +7,7 @@ export default function ContactDetailsSection() {
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div className="contact-info-box">
                             <div className="shape-1">
-                                <img src="assets/img/inner-page/contact-shape.png" alt="img"/>
+                                <img src="assets/img/inner-page/contact-shape.png" alt="img" />
                             </div>
                             <div className="contact-top">
                                 <div className="icon">
@@ -16,11 +16,11 @@ export default function ContactDetailsSection() {
                                 <h3>Mail us 24/7</h3>
                             </div>
                             <p>
-                                <a href="mailto:agron@gmail.com">agron@gmail.com</a>
+                                <a href="mailto:dibankosalifu@gmail.com">dibankosalifu@gmail.com</a>
                             </p>
-                            <p>
+                            {/* <p>
                                 <a href="supportagron%40gmail.html">supportagron@gmail.com</a>
-                            </p>
+                            </p> */}
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
@@ -35,17 +35,18 @@ export default function ContactDetailsSection() {
                                 <h3>Call Us Anytime</h3>
                             </div>
                             <p>
-                                <a href="tel:(+55)7320618278">Phone : (+55) 732 - 061 - 8278</a>
+                                {/* //+233 24 452 2879 */}
+                                <a href="tel:(+55)7320618278">Phone : (+233) 244 - 522 - 879</a>
                             </p>
                             <p>
-                                <a href="tel:+69009494094">Mobile : (+01) 647 - 448 - 3065</a>
+                                <a href="tel:+69009494094">WhatsApp : (+233) 244 - 522 - 879</a>
                             </p>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div className="contact-info-box">
                             <div className="shape-1">
-                                <img src="assets/img/inner-page/contact-shape.png" alt="img"/>
+                                <img src="assets/img/inner-page/contact-shape.png" alt="img" />
                             </div>
                             <div className="contact-top">
                                 <div className="icon">
@@ -54,7 +55,7 @@ export default function ContactDetailsSection() {
                                 <h3>Our Location</h3>
                             </div>
                             <p>
-                                4821 Ride Top, Anch St, Alaska <br/> 997998, USA main city.
+                                Ejura <br />Ashanti Region, Ghana.
                             </p>
                         </div>
                     </div>

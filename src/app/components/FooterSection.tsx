@@ -149,7 +149,8 @@ export default function FooterSection() {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom-wrapper">
-                        <p className="text-1 wow fadeInUp">© 2025 Agron. All Rights Reserved</p>
+                        <p className="text-1 wow fadeInUp">© {new Date().getFullYear()} Dibanko Salifu Farms. Developed by
+                            <a className="text-1" href="https://wwww.wemaflex.com" target="_blank" rel="noopener noreferrer"> Wemaflex </a>. All Rights Reserved</p>
                         <div className="social-icon wow fadeInUp" data-wow-delay=".2s">
                             <Link href="#"><i className="fab fa-facebook-f"></i></Link>
                             <Link href="#"><i className="fab fa-twitter"></i></Link>
