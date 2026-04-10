@@ -25,6 +25,7 @@ export default function StickyHeader() {
                                         <li><Link href="/">Home</Link></li>
                                         <li><Link href="/team">Our Team</Link></li>
                                         <li><Link href="/shop">Shop</Link></li>
+                                        <li><Link href="/faqs">FAQs</Link></li>
                                         <li><Link href="/contact-us">Contact Us</Link></li>
                                         <li><Link href="/about-us">About Us</Link></li>
                                     </ul>
