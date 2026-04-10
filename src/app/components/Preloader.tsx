@@ -1,41 +1,43 @@
-"use client";
+"use client"; // This is required because we are using hooks!
 
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 
-export default function PreLoader() {
-    // 1. Controls when to start the exit animation
-    const [isFading, setIsFading] = useState(false);
-    // 2. Controls when to actually delete the component
-    const [isUnmounted, setIsUnmounted] = useState(false);
+export default function Preloader() {
+    const pathname = usePathname();
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
-        // Step 1: Trigger the smooth slide/fade animation after 1 second
-        const fadeTimer = setTimeout(() => {
-            setIsFading(true);
-        }, 1000); // Adjust how long the preloader forces you to wait
+        // 1. Whenever the route changes, reset the preloader to visible
+        setIsLoading(true);
 
-        // Step 2: Completely remove it from the DOM *after* the animation finishes
-        const unmountTimer = setTimeout(() => {
-            setIsUnmounted(true);
-        }, 1600); // This should be fadeTimer (1000) + the duration of your CSS animation (e.g., 600ms)
+        // 2. Wait a fraction of a second for the new page to mount, then hide it smoothly
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 1000); // 1000ms matches the typical template loading feel
 
-        return () => {
-            clearTimeout(fadeTimer);
-            clearTimeout(unmountTimer);
-        };
-    }, []);
-
-    // Only return null after the animation has finished playing
-    if (isUnmounted) return null;
+        // Cleanup the timer to prevent memory leaks
+        return () => clearTimeout(timer);
+    }, [pathname]); // The dependency array ensures this runs on every page change!
 
     return (
-        < div id="preloader" className={`preloader ${isFading ? 'loaded' : ''}`}>
+        <div
+            id="preloader"
+            className="preloader"
+            style={{
+                // This inline style completely replaces the template's broken jQuery fadeOut
+                opacity: isLoading ? 1 : 0,
+                visibility: isLoading ? "visible" : "hidden",
+                transition: "opacity 0.6s ease-out, visibility 0.6s ease-out",
+                zIndex: 99999 // Ensures it stays on top of everything
+            }}
+        >
             <div className="animation-preloader">
                 <div className="spinner-wrapper ">
                     <div className="spinner"></div>
                     <img src="/assets/img/logo/black-logo-top.svg" alt="Logo" className="spinner-logo" />
                 </div>
-                <div className="logo-loading mt-3 text-center">
+                <div className="logo-loading mt-5 text-center">
                     <img
                         width={300}
                         src="/assets/img/logo/black-logo-bottom.svg"
@@ -46,7 +48,6 @@ export default function PreLoader() {
                 <p className="text-center">Loading</p>
             </div>
 
-            {/* The curtain effect walls */}
             <div className="loader">
                 <div className="row">
                     <div className="col-3 loader-section section-left">
@@ -63,6 +64,6 @@ export default function PreLoader() {
                     </div>
                 </div>
             </div>
-        </ div >
+        </div>
     );
 }

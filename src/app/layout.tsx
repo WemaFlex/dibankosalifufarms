@@ -53,19 +53,21 @@ export default function RootLayout({
         <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
         <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
 
-        <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/jquery.nice-select.min.js" strategy="beforeInteractive" />
-        <Script src="/assets/js/swiper-bundle.min.js" strategy="beforeInteractive" />
+        {/* 2. PLUGINS: Load these AFTER React has painted the page */}
+        <Script src="/assets/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.nice-select.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/swiper-bundle.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/odometer.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.appear.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.meanmenu.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/jquery.magnific-popup.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/wow.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/ScrollTrigger.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/SplitText.min.js" strategy="afterInteractive" />
+        <Script src="/assets/js/splitType.js" strategy="afterInteractive" />
 
-        <Script strategy="beforeInteractive" src="/assets/js/odometer.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/jquery.appear.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/jquery.meanmenu.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/jquery.magnific-popup.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/wow.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/ScrollTrigger.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/SplitText.min.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/splitType.js" />
-        <Script strategy="beforeInteractive" src="/assets/js/main.js" />
+        {/* 3. YOUR MAIN LOGIC: Also must wait! */}
+        <Script src="/assets/js/main.js" strategy="afterInteractive" />
       </body>
     </html>
   );
