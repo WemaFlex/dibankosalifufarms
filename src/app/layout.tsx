@@ -48,24 +48,25 @@ export default function RootLayout({
         <link rel="stylesheet" href="/assets/css/main.css" />
       </head>
 
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
 
-      <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/jquery.nice-select.min.js" strategy="beforeInteractive" />
+        <Script src="/assets/js/swiper-bundle.min.js" strategy="beforeInteractive" />
 
-      <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/jquery.nice-select.min.js" strategy="beforeInteractive" />
-      <Script src="/assets/js/swiper-bundle.min.js" strategy="beforeInteractive" />
-
-      <Script strategy="afterInteractive" src="/assets/js/odometer.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/jquery.appear.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/jquery.meanmenu.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/jquery.magnific-popup.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/wow.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/ScrollTrigger.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/SplitText.min.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/splitType.js" />
-      <Script strategy="beforeInteractive" src="/assets/js/main.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/odometer.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/jquery.appear.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/jquery.meanmenu.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/jquery.magnific-popup.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/wow.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/ScrollTrigger.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/SplitText.min.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/splitType.js" />
+        <Script strategy="beforeInteractive" src="/assets/js/main.js" />
+      </body>
     </html>
   );
 }
