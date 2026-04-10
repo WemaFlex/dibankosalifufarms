@@ -33,7 +33,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="modinatheme" />
         <meta name="description" content="Agron - Agriculture & Organic Farm HTML Template" />
-        <link rel="shortcut icon" href="/assets/img/favicon.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="/assets/css/font-awesome.css" />
         <link rel="stylesheet" href="/assets/css/animate.css" />
@@ -47,16 +50,14 @@ export default function RootLayout({
 
       <body className="min-h-full flex flex-col">{children}</body>
 
-      {/* Core Dependencies MUST load first */}
       <Script src="/assets/js/jquery-3.7.1.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/gsap.min.js" strategy="beforeInteractive" />
 
-      {/* Plugins can load after the page is interactive */}
       <Script src="/assets/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/jquery.nice-select.min.js" strategy="beforeInteractive" />
       <Script src="/assets/js/swiper-bundle.min.js" strategy="beforeInteractive" />
-      {/* ... include your other plugins here with afterInteractive ... */}
-      <Script strategy="lazyOnload" src="/assets/js/odometer.min.js" />
+
+      <Script strategy="afterInteractive" src="/assets/js/odometer.min.js" />
       <Script strategy="beforeInteractive" src="/assets/js/jquery.appear.min.js" />
       <Script strategy="beforeInteractive" src="/assets/js/jquery.meanmenu.min.js" />
       <Script strategy="beforeInteractive" src="/assets/js/jquery.magnific-popup.min.js" />
