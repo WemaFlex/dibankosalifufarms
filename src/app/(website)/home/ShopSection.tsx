@@ -17,16 +17,13 @@ export default function ShopSection() {
                                 <img src="/assets/img/home-1/shop/shop-01.png" alt="Premium Maize" />
                                 <span className="sale-icon">Fresh</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
-                                    {/* <li>
-                                        <Link href="/cart"><i className="far fa-heart"></i></Link>
-                                    </li>
                                     <li>
-                                        <Link href="/cart">
+                                        <Link href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
-                                        <Link href="/shop/maize"><i className="far fa-eye"></i></Link>
+                                        <Link href="/shop?q=maize"><i className="far fa-eye"></i></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -55,16 +52,13 @@ export default function ShopSection() {
                                 <img src="/assets/img/home-1/shop/shop-02.png" alt="Poultry Feed" />
                                 <span className="sale-icon">Top Seller</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
-                                    {/* <li>
-                                        <Link href="/cart"><i className="far fa-heart"></i></Link>
-                                    </li>
                                     <li>
-                                        <Link href="/cart">
+                                        <Link href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
-                                        <Link href="/shop/feed"><i className="far fa-eye"></i></Link>
+                                        <Link href="/shop?q=feed"><i className="far fa-eye"></i></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -90,16 +84,13 @@ export default function ShopSection() {
                             <div className="shop-image">
                                 <img src="/assets/img/home-1/shop/shop-03.png" alt="Healthy Goat" />
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
-                                    {/* <li>
-                                        <Link href="/cart"><i className="far fa-heart"></i></Link>
-                                    </li>
                                     <li>
-                                        <Link href="/cart">
+                                        <Link href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
-                                        <Link href="/shop/livestock"><i className="far fa-eye"></i></Link>
+                                        <Link href="/shop?q=livestock"><i className="far fa-eye"></i></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -127,16 +118,13 @@ export default function ShopSection() {
                                 <span className="sale-icon">Sale</span>
                                 <span className="discount-icon">10% Off</span>
                                 <ul className="shop-icon d-flex justify-content-center align-items-center">
-                                    {/* <li>
-                                        <Link href="/cart"><i className="far fa-heart"></i></Link>
-                                    </li>
                                     <li>
-                                        <Link href="/cart">
+                                        <Link href="/shop/cart">
                                             <i className="far fa-shopping-cart"></i>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
-                                        <Link href="/shop/soybeans"><i className="far fa-eye"></i></Link>
+                                        <Link href="/shop?q=soybeans"><i className="far fa-eye"></i></Link>
                                     </li>
                                 </ul>
                             </div>

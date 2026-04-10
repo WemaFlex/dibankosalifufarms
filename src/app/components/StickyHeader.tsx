@@ -13,6 +13,7 @@ export default function StickyHeader() {
                                 {/* <Image src="/assets/img/logo/black-logo-bottom.svg" alt="Bottom Logo" height={50} width={220} className="-ml-4 mt-2" /> */}
                             </Link>
                         </form>
+
                         <Link href="/home" className="header-logo">
                             <Image src="/assets/img/logo/black-logo.svg" alt="img" height={50} width={50} />
                         </Link>
@@ -31,8 +32,8 @@ export default function StickyHeader() {
                             </div>
                         </div>
                         <div className="header-right d-flex justify-content-end align-items-center">
-                            <Link href="contact.html" className="theme-btn">
-                                Let’s Talk
+                            <Link href="/contact-us" className="theme-btn">
+                                Let&apos;s Talk
                                 <i className="far fa-arrow-right"></i>
                             </Link>
                             <div className="header__hamburger my-auto">
