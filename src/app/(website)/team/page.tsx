@@ -1,13 +1,11 @@
 import BreadCrum from "@/app/components/BreadCrum";
-import FaqsSection from "./FaqsSection";
-import ContactFormSection from "../contact-us/ContactFormSection";
+import TeamMembersSection from "./TeamMembersSection";
 
 export default function FAQsPage() {
     return (
         <>
             <BreadCrum slug="Our Team" />
-            <FaqsSection />
-            <ContactFormSection />
+            <TeamMembersSection />
         </>
     )
 }
