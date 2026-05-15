@@ -1,8 +1,8 @@
 
-export default function ContactFormSection() {
+export default function ContactSection() {
     return (
         <section className="contact-section section-bg fix">
-            <div className="shape-1 float-bob-x">
+            <div className="shape-1 float-bob-y">
                 <img src="/assets/img/home-1/contact-shape.png" alt="img" />
             </div>
             <div className="container">
@@ -11,34 +11,29 @@ export default function ContactFormSection() {
                         <div className="col-lg-6">
                             <div className="contact-content">
                                 <div className="section-title mb-0">
-                                    <span className="wow fadeInUp"><img src="/assets/img/sub-title.svg" alt="img" />Contact With Us</span>
-                                    <h2>Contact Us for Organic <br /> and Natural Products</h2>
+                                    <span className="wow fadeInUp"><img src="/assets/img/sub-title.svg" alt="img" />Contact Us</span>
+                                    <h2 className="text-anim">Contact Us for Organic <br /> and Natural Products</h2>
                                 </div>
-                                <form action="https://modinathemes.com/agron-html/contact.php" id="contact-form" className="contact-form-box">
+                                <form action="#" id="contact-form" className="contact-form-box">
                                     <div className="row g-4 align-items-center justify-content-center">
-                                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                                        <div className="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".4s">
                                             <div className="form-clt">
-                                                <input type="text" name="name" id="name" placeholder="Enter email" />
+                                                <input type="text" placeholder="Enter name" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                                        <div className="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".2s">
                                             <div className="form-clt">
-                                                <input type="text" name="email" id="email2" placeholder="Enter name" />
+                                                <input type="text" placeholder="Enter email" />
                                             </div>
                                         </div>
-                                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                                        <div className="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".7s">
                                             <div className="form-clt">
-                                                <input type="text" name="phone" id="phone" placeholder="Your name" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                                            <div className="form-clt">
-                                                <input type="text" name="subject" id="subject" placeholder="Phone number" />
+                                                <input type="text" placeholder="Phone number" />
                                             </div>
                                         </div>
                                         <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                                             <div className="form-clt">
-                                                <input type="text" name="subject" id="subject2" placeholder="Your subject" />
+                                                <input type="text" placeholder="Your subject" />
                                             </div>
                                         </div>
                                         <div className="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
@@ -60,12 +55,13 @@ export default function ContactFormSection() {
                         </div>
                         <div className="col-lg-6">
                             <div className="contact-image">
-                                <img src="/assets/img/inner-page/contact-image.jpg" alt="img" />
+                                <img style={{ maxHeight: 939, maxWidth: 900 }} src="/images/crop-holding.jpg" alt="img" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-    )
+
+    );
 }

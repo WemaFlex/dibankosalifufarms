@@ -4,7 +4,7 @@ import ContactUsOffCanvas from "../components/ContactUsOffCanvas";
 import CustomMouseCursor from "../components/CustomMouseCursor";
 import StickyHeader from "../components/StickyHeader";
 import TopHeader from "../components/TopHeader";
-
+import BreadCrum from "../components/BreadCrum";
 
 export default function RootLayout({
   children,
@@ -19,6 +19,7 @@ export default function RootLayout({
       <ContactUsOffCanvas />
       <TopHeader />
       <StickyHeader />
+      <BreadCrum slug="Products" />
       {children}
       <FooterSection />
     </>

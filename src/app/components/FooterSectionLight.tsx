@@ -29,13 +29,15 @@ export default function FooterSectionLight() {
                                     </a>
                                 </div>
                                 <div className="footer-content">
-                                    <p>Lorem ipsum dolor sit amet, porro quisquam est, qui dolorem ipsum quia sed dolor sit amet, consectetur</p>
+                                    <p>Connect with Dibanko Salifu Farms</p>
                                     <h3>Follow Us:</h3>
                                     <div className="social-icon">
-                                        <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                        <a href="#"><i className="fab fa-twitter"></i></a>
-                                        <a href="#"><i className="fab fa-dribbble"></i></a>
-                                        <a href="#"><i className="fab fa-instagram"></i></a>
+                                        <a target="_blank"
+                                            rel="noopener noreferrer" href="https://www.facebook.com/dibanksalifufarms"><i className="fab fa-facebook-f"></i></a>
+                                        <a target="_blank"
+                                            rel="noopener noreferrer" href="https://www.instagram.com/dibanksalifufarms"><i className="fab fa-instagram"></i></a>
+                                        <a target="_blank"
+                                            rel="noopener noreferrer" href="https://twitter.com/dibanksalifufarms"><i className="fab fa-twitter"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -49,7 +51,7 @@ export default function FooterSectionLight() {
                                 </div>
                                 <ul className="list-area">
                                     <li>
-                                        <a href="/about">
+                                        <a href="/about-us">
                                             <i className="far fa-chevron-double-right"></i> About Company
                                         </a>
                                     </li>
@@ -59,12 +61,12 @@ export default function FooterSectionLight() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/contact-us">
                                             <i className="far fa-chevron-double-right"></i> Contact Us
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/contact-us">
                                             <i className="far fa-chevron-double-right"></i> 24/7 Support
                                         </a>
                                     </li>

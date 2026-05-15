@@ -6,7 +6,6 @@ import CtaSection from "./CtaSection";
 import ProductsSection from "./ShopSection";
 import ContactSection from "./ContactSection";
 import VideoSection from "./VideoSection";
-import CounterSection from "./CountSection";
 import FarmInnovations from "./FarmInvations";
 import VideoGallery from "@/app/components/VideoGallery";
 import FeaturedProjectsSection from "./FeaturedProjects";
@@ -19,7 +18,7 @@ export default function Home() {
             <AboutSection />
             <WhatWeDoSection />
             <FeaturedProjectsSection />
-            <CounterSection />
+            {/* <CounterSection />npm run */}
             <ProductsSection />
             <WhyChooseUsSection />
             <ContactSection />

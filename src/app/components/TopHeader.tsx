@@ -25,10 +25,15 @@ export default function TopHeader() {
                     </a>
                     <div className="head-right">
                         <div className="social-icon">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-dribbble"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.facebook.com/dibanksalifufarms"><i className="fab fa-facebook-f"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://www.instagram.com/dibanksalifufarms"><i className="fab fa-instagram"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer"
+                                href="https://twitter.com/dibanksalifufarms"><i className="fab fa-twitter"></i></a>
                         </div>
                     </div>
                 </div>

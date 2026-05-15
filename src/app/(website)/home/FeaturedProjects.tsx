@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function FeaturedProjectsSection() {
     return (
-        <section className="service-section section-padding section-bg">
+        <section id="projects" className="service-section section-padding section-bg">
             <div className="top-shape">
                 <img src="/assets/img/home-1/service/top-shape.png" alt="img" />
             </div>
@@ -77,7 +77,7 @@ export default function FeaturedProjectsSection() {
                                 <div className="col-lg-6 wow fadeInUp" data-wow-delay=".5s">
                                     <div className="service-image">
                                         {/* Swap with real project image */}
-                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/crop-farming.jpg" alt="Ginger Farm" />
+                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/ginger-farming.jpg" alt="Ginger Farm" />
                                     </div>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@ export default function FeaturedProjectsSection() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="service-image">
-                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/live-stock.jpg" alt="Maize Production" />
+                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/maize-farming.jpg" alt="Maize Production" />
                                     </div>
                                 </div>
                             </div>
@@ -127,7 +127,7 @@ export default function FeaturedProjectsSection() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="service-image">
-                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/animal-feed.png" alt="Feed Pellet Factory" />
+                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/animal-feed-2.jpeg" alt="Feed Pellet Factory" />
                                     </div>
                                 </div>
                             </div>
@@ -152,7 +152,7 @@ export default function FeaturedProjectsSection() {
                                 </div>
                                 <div className="col-lg-6">
                                     <div className="service-image">
-                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/wholesale-and-bulk.png" alt="Warehouse Logistics" />
+                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/logistics.png" alt="Warehouse Logistics" />
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@ export default function FeaturedProjectsSection() {
                                 <div className="col-lg-6">
                                     <div className="service-image">
                                         {/* You will need an image for this 5th tab! */}
-                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/irrigation-farming.jpg" alt="Irrigation Farming" />
+                                        <img style={{ width: "100%", height: 390, objectFit: "cover", borderRadius: "10px" }} src="/images/irigation-farming.jpg" alt="Irrigation Farming" />
                                     </div>
                                 </div>
                             </div>

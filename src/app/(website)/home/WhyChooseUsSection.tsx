@@ -13,8 +13,7 @@ export default function ChooseUsSection() {
     ];
 
     return (
-        <section className="choose-us-section section-padding pt-0 mt-5">
-            {/* The template's floating background shape */}
+        <section className="choose-us-section section-padding pt-0">
             <div className="shape-1 float-bob-x">
                 <img src="/assets/img/home-1/choose/shape-1.png" alt="img" />
             </div>

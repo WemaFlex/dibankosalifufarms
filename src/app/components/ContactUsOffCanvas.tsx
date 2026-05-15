@@ -27,11 +27,12 @@ export default function ContactUsOffCanvas() {
                             <div className="mobile-menu fix mt-15"></div>
 
                             <div className="social-icon d-flex align-items-center">
-                                {/* Changed javascript:void(0) to # to prevent React warnings */}
-                                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a href="#"><i className="fab fa-twitter"></i></a>
-                                <a href="#"><i className="fab fa-youtube"></i></a>
-                                <a href="#"><i className="fab fa-linkedin-in"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://www.facebook.com/dibanksalifufarms"><i className="fab fa-facebook-f"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://www.instagram.com/dibanksalifufarms"><i className="fab fa-instagram"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://twitter.com/dibanksalifufarms"><i className="fab fa-twitter"></i></a>
                             </div>
 
                             <div className="offcanvas__contact">

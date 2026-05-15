@@ -1,7 +1,7 @@
 
 export default function WhatWeDoSection() {
     return (
-        <section className="feature-section section-padding fix bg-light">
+        <section id="whatwedo" className="feature-section section-padding fix bg-light">
             <div className="container">
                 <div className="section-title text-center mb-5">
                     <span className="wow fadeInUp">

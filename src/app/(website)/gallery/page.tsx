@@ -1,11 +1,13 @@
 import BreadCrum from "@/app/components/BreadCrum";
-import CommingSoon from "@/app/components/CommingSoon";
+import VideoGallery from "@/app/components/VideoGallery";
+import GallerySection from "../home/GallerySection";
 
 export default function GalleryPage() {
     return (
         <>
             <BreadCrum slug="Gallery" />
-            <CommingSoon />
+            <GallerySection />
+            <VideoGallery />
         </>
     )
 }

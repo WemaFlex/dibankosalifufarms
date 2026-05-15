@@ -8,7 +8,7 @@ export default function FooterSection() {
                         <img width={300} height={300} src="/assets/img/logo/white-logo.svg" alt="img" />
                     </a>
                     <div className="content-items wow fadeInUp" data-wow-delay=".2s">
-                        <h3>Subscrive Our Newsletter To Get More Updates</h3>
+                        <h3>Subscribe Our Newsletter To Get More Updates</h3>
                         <form action="#">
                             <input type="text" placeholder="Your email" />
                             <button className="theme-btn" type="submit">
@@ -66,17 +66,20 @@ export default function FooterSection() {
                                 </div>
                                 <ul className="list-area">
                                     <li>
-                                        <a href="/shop?category=agriculture-foods">
+                                        <a href="#products">
+                                            {/* <a href="/shop?category=agriculture-foods"> */}
                                             <i className="far fa-chevron-double-right"></i> Agriculture Foods
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/shop?category=livestock">
+                                        <a href="#products">
+                                            {/* <a href="/shop?category=livestock"> */}
                                             <i className="far fa-chevron-double-right"></i> Livestock
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/shop?category=animal-feed">
+                                        <a href="#products">
+                                            {/* /shop?category=animal-feed */}
                                             <i className="far fa-chevron-double-right"></i> Animal Feed
                                         </a>
                                     </li>
@@ -97,17 +100,17 @@ export default function FooterSection() {
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/faq">
+                                        <a href="/faqs">
                                             <i className="far fa-chevron-double-right"></i> Our FAQs
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/contact">
+                                        <a href="/contact-us">
                                             <i className="far fa-chevron-double-right"></i> 24/7 Support
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/about">
+                                        <a href="/about-us">
                                             <i className="far fa-chevron-double-right"></i> About Us
                                         </a>
                                     </li>
@@ -152,10 +155,12 @@ export default function FooterSection() {
                         <p className="text-1 wow fadeInUp">© {new Date().getFullYear()} Dibanko Salifu Farms. Developed by
                             <a className="text-1" href="https://wwww.wemaflex.com" target="_blank" rel="noopener noreferrer"> Wemaflex </a>. All Rights Reserved</p>
                         <div className="social-icon wow fadeInUp" data-wow-delay=".2s">
-                            <a href="#"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#"><i className="fab fa-twitter"></i></a>
-                            <a href="#"><i className="fab fa-dribbble"></i></a>
-                            <a href="#"><i className="fab fa-instagram"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer" href="https://www.facebook.com/dibanksalifufarms"><i className="fab fa-facebook-f"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer" href="https://www.instagram.com/dibanksalifufarms"><i className="fab fa-instagram"></i></a>
+                            <a target="_blank"
+                                rel="noopener noreferrer" href="https://twitter.com/dibanksalifufarms"><i className="fab fa-twitter"></i></a>
                         </div>
                         <div className="bottom-img wow fadeInUp" data-wow-delay=".4s">
                             <img src="/assets/img/home-1/footer-bottom.png" alt="img" />

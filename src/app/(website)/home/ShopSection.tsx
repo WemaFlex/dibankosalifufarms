@@ -25,19 +25,19 @@ export default function ShopSection() {
     }, []);
 
     const productsData = [
-        { id: 1, name: "Fresh Ginger", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-01.png", tag: "Fresh", tagColor: "sale-icon" },
-        { id: 2, name: "Livestock Feed Pellets", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-02.png", tag: "Top Seller", tagColor: "sale-icon" },
-        { id: 3, name: "Premium White Maize", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-03.png", tag: "", tagColor: "" },
-        { id: 4, name: "Fortified Poultry Feed", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-04.png", tag: "Sale", tagColor: "discount-icon" },
-        { id: 5, name: "Dried Ginger", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-01.png", tag: "", tagColor: "" },
-        { id: 6, name: "Cassava Products", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-02.png", tag: "", tagColor: "" },
-        { id: 7, name: "Ruminant Feed (Cattle)", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-03.png", tag: "", tagColor: "" },
-        { id: 8, name: "Rabbit Feed Pellets", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-04.png", tag: "", tagColor: "" },
-        { id: 9, name: "Pig Feed Formulations", price: "Wholesale Pricing", image: "/assets/img/home-1/shop/shop-01.png", tag: "", tagColor: "" }
+        { id: 1, name: "Fresh Ginger", price: "Wholesale Pricing", image: "/images/fresh-ginger.jpg", tag: "Fresh", tagColor: "sale-icon" },
+        { id: 2, name: "Livestock Feed Pellets", price: "Wholesale Pricing", image: "/images/live-stock-feed-pallets.jpg", tag: "Top Seller", tagColor: "sale-icon" },
+        { id: 3, name: "Premium White Maize", price: "Wholesale Pricing", image: "/images/premium-white-maize.jpg", tag: "", tagColor: "" },
+        { id: 4, name: "Fortified Poultry Feed", price: "Wholesale Pricing", image: "/images/live-stock-feed-pallets.jpg", tag: "Sale", tagColor: "discount-icon" },
+        { id: 5, name: "Dried Ginger", price: "Wholesale Pricing", image: "/images/dried-ginger-1.jpg", tag: "", tagColor: "" },
+        { id: 6, name: "Cassava Products", price: "Wholesale Pricing", image: "/images/cassava-1.jpg", tag: "", tagColor: "" },
+        { id: 7, name: "Ruminant Feed (Cattle)", price: "Wholesale Pricing", image: "/images/ruminant-feed-1.jpg", tag: "", tagColor: "" },
+        { id: 8, name: "Rabbit Feed", /**Pellets */ price: "Wholesale Pricing", image: "/images/rabit-feed-pallets.jpg", tag: "", tagColor: "" },
+        { id: 9, name: "Pig Feed Formulations", price: "Wholesale Pricing", image: "/images/pig-feed-pallets.jpg", tag: "", tagColor: "" }
     ];
 
     return (
-        <section className="shop-section section-padding fix pt-0 mt-5">
+        <section id="products" className="shop-section section-padding fix pt-0 mt-5">
             <div className="container">
                 <div className="section-title text-center mb-5">
                     <span className="wow fadeInUp"><img src="/assets/img/sub-title.svg" alt="img" />Direct From Ejura</span>
@@ -55,7 +55,7 @@ export default function ShopSection() {
                                 {/* EXACT ORIGINAL CARD HTML - NO EXTRA HEIGHT */}
                                 <div className="shop-box-items">
                                     <div className="shop-image">
-                                        <img src={product.image} alt={product.name} className="w-100" />
+                                        <img style={{ maxWidth: "199px", maxHeight: "187px" }} src={product.image} alt={product.name} className="w-100" />
 
                                         {/* Render tags only if they exist */}
                                         {product.tag && <span className={product.tagColor}>{product.tag}</span>}

@@ -23,20 +23,20 @@ export default function StickyHeader() {
                                 <nav id="mobile-menu">
                                     <ul>
                                         <li><Link href="/">Home</Link></li>
-                                        <li><Link href="/about-us">About</Link></li>
-                                        <li><Link href="/farms">Farms</Link></li>
-                                        <li><Link href="/feed-production">Feed Production</Link></li>
-                                        <li><Link href="/shop">Products</Link></li>
-                                        <li><Link href="/projects">Projects</Link></li>
+                                        <li><Link href="#whatwedo">Farms</Link></li>
+                                        <li><Link href="#whatwedo">Feed Production</Link></li>
+                                        <li><Link href="#products">Products</Link></li>
+                                        <li><Link href="#projects">Projects</Link></li>
                                         <li><Link href="/gallery">Gallery</Link></li>
-                                        <li><Link href="/contact-us">Contact</Link></li>
+                                        <li><Link href="/contact-us">Contact Us</Link></li>
+                                        <li><Link href="/about-us">About</Link></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
                         <div className="header-right d-flex justify-content-end align-items-center">
                             {/* Updated Let's Talk button to match the new /contact route */}
-                            <Link href="/contact" className="theme-btn">
+                            <Link href="/contact-us" className="theme-btn">
                                 Let&apos;s Talk
                                 <i className="far fa-arrow-right"></i>
                             </Link>

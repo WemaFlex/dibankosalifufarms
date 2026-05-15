@@ -9,9 +9,9 @@ export default function CommingSoon() {
                             <a href="/home" className="coming-soon-logo wow fadeInUp ">
                                 <img width={300} height={300} src="/assets/img/logo/black-logo.svg" alt="img" className="-mt-5" />
                             </a>
-                            <p className="wow fadeInUp" data-wow-delay=".2s">
+                            {/* <p className="wow fadeInUp" data-wow-delay=".2s">
                                 UNDER CONSTRUCTION
-                            </p>
+                            </p> */}
                             <h2 className="text wow fadeInUp" data-wow-delay=".4s">
                                 COMING SOON!
                             </h2>
@@ -24,10 +24,12 @@ export default function CommingSoon() {
                                 </div>
                             </form>
                             <div className="social-icon d-flex align-items-center mb-3">
-                                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                                <a href="#"><i className="fas fa-basketball-ball"></i></a>
-                                <a href="#"><i className="fab fa-instagram"></i></a>
-                                <a href="#"><i className="fab fa-twitter"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://www.facebook.com/dibanksalifufarms"><i className="fab fa-facebook-f"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://www.instagram.com/dibanksalifufarms"><i className="fab fa-instagram"></i></a>
+                                <a target="_blank"
+                                    rel="noopener noreferrer" href="https://twitter.com/dibanksalifufarms"><i className="fab fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
